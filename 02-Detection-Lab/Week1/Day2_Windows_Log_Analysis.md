@@ -9,17 +9,17 @@ Command Executed:
 
 net user socuser123 P@ssw0rd! /add
 
-Observed Alert Details:
+Observed Alert Details: 
 
-Rule ID:
+Rule ID: 60109
 
-Rule Level:
+Rule Level: 8
 
-Description:
+Description: User account enable or created
 
-MITRE Technique:
+MITRE Technique: T1098 - Account Manipulation
 
-MITRE Tactic:
+MITRE Tactic: Persistence
 
 Security Analysis:
 Explain why this could be malicious.
@@ -27,19 +27,24 @@ Explain why this could be malicious.
 3️⃣ Test Case 2 – Failed Login Attempt
 
 Method Used:
-Manual incorrect password attempts
+Manual incorrect password/account attempts
 
 Observed Alert Details:
 
-Rule ID:
+Rule ID: 60122
 
-Rule Level:
+Rule Level: 5
 
-Description:
+Description: Logon failure - Unknown user or bad password
 
-MITRE Technique:
+MITRE Technique: T1078, T1531 - Valid Accounts, Account Access Removal
 
-MITRE Tactic:
+MITRE Tactic: 
+                "Defense Evasion", 
+                "Persistence", 
+                "Privilege Escalation", 
+                "Initial Access",
+                "Impact"
 
 Security Analysis:
 Explain brute-force risk.
