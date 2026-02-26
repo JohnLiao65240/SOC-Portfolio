@@ -23,8 +23,15 @@ MITRE Technique: T1098 - Account Manipulation, This alert is mapped to MITRE ATT
 
 MITRE Tactic: Persistence
 
-Security Analysis:
-Explain why this could be malicious.
+## Security Analysis
 
+The observed event corresponds to a successful Windows logon (Rule ID 60106).
 
-Not all alerts are incidents
+In this lab environment, the activity was generated intentionally for validation purposes. However, in a production environment, successful logon events involving privileged accounts should be monitored carefully.
+
+Potential risks in real-world scenarios include:
+- Unauthorized access using compromised credentials
+- Privilege escalation attempts
+- Lateral movement within a network
+
+Although this event is benign in the current lab context, it demonstrates how Wazuh detects and classifies authentication activity.
