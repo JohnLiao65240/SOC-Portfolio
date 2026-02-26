@@ -1,4 +1,3 @@
-# Week 1 - Day 3
 ## Local Authentication Failure Analysis
 
 ### Objective
