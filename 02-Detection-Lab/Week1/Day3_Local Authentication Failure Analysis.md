@@ -1,5 +1,5 @@
 # Week 1 - Day 3
-## Brute Force Detection Analysis
+## Local Authentication Failure Analysis
 
 ### Objective
 Investigation of Suspected Brute Force Activity.
